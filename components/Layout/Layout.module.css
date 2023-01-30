@@ -1,0 +1,49 @@
+.layout {
+  position: relative;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 0 2rem;
+  font-family: "Bebas Neue", cursive;
+}
+.nav a {
+  text-decoration: none;
+  font-weight: 500;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s;
+}
+.nav a:hover {
+  background-image: linear-gradient(270deg, #667eea 0%, #764ba2 100%);
+}
+.nav__links > *:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.main {
+  margin-top: 15rem;
+}

@@ -1,0 +1,22 @@
+.post-header {
+  display: flex;
+  margin-bottom: 5rem;
+  padding-bottom: 4rem;
+  border-bottom: 1rem solid #764ba270;
+}
+
+.post-header__title {
+  font-size: 6rem;
+  font-weight: 300;
+}
+.post-header__title::first-letter {
+  font-size: 9rem;
+  color: #764ba2;
+}
+.post-header__image {
+  margin-left: auto;
+  width: 30rem;
+  height: auto;
+  border-radius: 7px;
+  object-fit: cover;
+}

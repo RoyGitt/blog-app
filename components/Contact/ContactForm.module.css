@@ -1,0 +1,43 @@
+.form {
+  width: 80rem;
+  margin: 0 auto;
+  padding: 4rem;
+  color: #fff;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 1rem 2rem #764ba2;
+  border-radius: 5px;
+}
+
+.form__legend {
+  font-weight: 500;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+.form__control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+.form__control label {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.form__control input,
+.form__control textarea {
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+.form__controls {
+  display: flex;
+  justify-content: space-between;
+}
+.form__controls > * {
+  flex-basis: 48%;
+}

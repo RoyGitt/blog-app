@@ -1,0 +1,33 @@
+.post-content {
+  background-color: #764ba220;
+  width: 120rem;
+  margin: 10rem auto;
+  margin-top: 10rem;
+  padding: 5rem;
+  border-radius: 7px;
+}
+
+.post-heading,
+.post-heading--secondary {
+  margin-bottom: 1rem;
+  font-size: 4.5rem;
+  color: #333;
+}
+.post-heading--secondary {
+  font-size: 3rem;
+  text-align: left;
+  color: #764ba2;
+}
+.post-paragraph {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.post-image {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
